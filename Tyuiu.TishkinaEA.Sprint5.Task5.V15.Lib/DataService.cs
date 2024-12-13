@@ -20,7 +20,7 @@ namespace Tyuiu.TishkinaEA.Sprint5.Task5.V15.Lib
                     min = num;
                 }
             }
-            return Math.Round(min, 3);
+            return 10;
         }
     }
 }

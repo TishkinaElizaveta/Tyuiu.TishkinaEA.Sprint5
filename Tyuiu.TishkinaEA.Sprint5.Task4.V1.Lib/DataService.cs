@@ -12,9 +12,9 @@ namespace Tyuiu.TishkinaEA.Sprint5.Task4.V1.Lib
             //double result = Convert.ToDouble((Math.Pow(x, -2) + 2) * Math.Sin(x));
             //return Math.Round(result, 2);            //string tempFilePath = Path.GetTempFileName();
             string tempFilePath = Path.GetTempFileName();
-            double x = 1;       
+            double x = Convert.ToDouble(File.ReadAllText(tempFilePath));
             double result = Convert.ToDouble(1 / ((Math.Cos(x) + x) - 4.12*x ));
-            return -3.68;
+            return Math.Round(result, 2);
         }
     }
 }

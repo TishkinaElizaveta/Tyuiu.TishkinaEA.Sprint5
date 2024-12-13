@@ -1,5 +1,5 @@
-﻿using Tyuiu.TishkinaEA.Sprint5.Task4.V1.Lib;
-namespace Tyuiu.TishkinaEA.Sprint5.Task4.V1
+﻿using Tyuiu.TishkinaEA.Sprint5.Task1.V10.Lib;
+namespace Tyuiu.TishkinaEA.Sprint5.Task1.V10
 {
     class Program
     {
@@ -10,8 +10,8 @@ namespace Tyuiu.TishkinaEA.Sprint5.Task4.V1
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
             Console.WriteLine("*                                                                         *");
-            Console.WriteLine("* Задание #4                                                              *");
-            Console.WriteLine("* Вариант #1                                                            *");
+            Console.WriteLine("* Задание #1                                                              *");
+            Console.WriteLine("* Вариант #10                                                             *");
             Console.WriteLine("* Выполнил: Тишкина Елизавета Андреевна | РППБ-24-1                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *"); 

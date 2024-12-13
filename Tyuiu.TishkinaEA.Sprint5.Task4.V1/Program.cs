@@ -33,7 +33,7 @@ namespace Tyuiu.TishkinaEA.Sprint5.Task4.V1
 
             DataService ds = new DataService();
 
-            var result = ds.YOURFUNCTION();
+            var result = ds.LoadFromDataFile();
             Console.WriteLine(result);
             Console.ReadKey();
         }

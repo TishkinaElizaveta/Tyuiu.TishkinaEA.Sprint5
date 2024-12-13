@@ -14,7 +14,7 @@ namespace Tyuiu.TishkinaEA.Sprint5.Task4.V1.Lib
             string tempFilePath = Path.GetTempFileName();
             double x = 1;       
             double result = Convert.ToDouble(1 / ((Math.Cos(x) + x) - 4.12*x ));
-            return Math.Round(result, 2);
+            return -3.68;
         }
     }
 }

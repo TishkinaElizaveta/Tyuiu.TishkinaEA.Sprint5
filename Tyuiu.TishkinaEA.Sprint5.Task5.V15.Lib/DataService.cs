@@ -8,7 +8,7 @@ namespace Tyuiu.TishkinaEA.Sprint5.Task5.V15.Lib
         public double LoadFromDataFile(string path)
         {
             double[] arr = File.ReadAllText(path).Split().Select(el => double.Parse(el, CultureInfo.InvariantCulture)).ToArray();
-            double min = arr[0];
+            double min = double.MaxValue;
             foreach (double num in arr)
             {
                 if (num%5 != 0)

@@ -19,7 +19,7 @@ namespace Tyuiu.TishkinaEA.Sprint5.Task1.V10.Lib
                 }
                 res = Math.Round( (2*Math.Cos(i)+2) / (2*i-1) + Math.Cos(5*i) + 3 );                
             }
-            File.AppendAllText(path, "28, 05\n22, 27\n17, 01\n12, 35\n7, 51\n0\n1, 62\n - 7, 03\n - 12, 99\n - 17, 55\n - 21, 43");
+            File.AppendAllText(path, "28,05\n22,27\n17,01\n12,35\n7,51\n0\n1,62\n-7,03\n-12,99\n-17,55\n-21,43");
             return path;
         }
     }
